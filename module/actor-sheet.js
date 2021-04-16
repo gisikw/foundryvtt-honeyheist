@@ -9,7 +9,7 @@ export class HoneyHeistActorSheet extends ActorSheet {
 			classes  : [ "honeyheist", "sheet", "actor" ],
 			template : "systems/honey-heist/templates/actor-sheet.html",
 			width    : 500,
-			height   : 550
+			height   : 750
 		});
 	}
 

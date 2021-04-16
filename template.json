@@ -13,6 +13,11 @@
 			"hat": "",
 			"hat2a": "",
 			"hat2b": "",
+                        "disguiseA": "0",
+                        "disguiseB": "0",
+                        "disguiseC": "0",
+                        "disguiseD": "0",
+                        "disguiseE": "0",
 			"descriptors": {
 				"none": {
 					"label": "Roll",
@@ -140,7 +145,157 @@
 					"label": "Roll Twice!",
 					"dtype": "String"
 				}
-			}
+			},
+			"disguiseAOptions": {
+				"0": {
+					"label": "Roll",
+					"dtype": "String"
+                                },
+				"1": {
+					"label": "Fluorescent Yellow",
+					"dtype": "String"
+                                },
+				"2": {
+					"label": "Very 90s Tie Dyed",
+					"dtype": "String"
+                                },
+                                "3": {
+					"label": "Powder Blue + Frilly",
+					"dtype": "String"
+                                },
+                                "4": {
+					"label": "Black + White Striped",
+					"dtype": "String"
+                                },
+                                "5": {
+					"label": "Beige",
+					"dtype": "String"
+                                },
+                                "6": {
+					"label": "Black",
+					"dtype": "String"
+                                }
+                        },
+                        "disguiseBOptions": {
+				"0": {
+					"label": "Roll",
+					"dtype": "String"
+                                },
+                                "1": {
+					"label": "Mittens",
+					"dtype": "String"
+                                },
+                                "2": {
+					"label": "Crop Top",
+					"dtype": "String"
+                                },
+                                "3": {
+					"label": "Tuxedo Jacket/Shirt + bow tie",
+					"dtype": "String"
+                                },
+                                "4": {
+					"label": "T-Shirt",
+					"dtype": "String"
+                                },
+                                "5": {
+					"label": "Jumper",
+					"dtype": "String"
+                                },
+                                "6": {
+					"label": "Trench Coat",
+					"dtype": "String"
+                                }
+                        },
+                        "disguiseCOptions": {
+				"0": {
+					"label": "Roll",
+					"dtype": "String"
+                                },
+                                "1": {
+					"label": "Peach Velour",
+					"dtype": "String"
+                                },
+                                "2": {
+					"label": "Leopard Print",
+					"dtype": "String"
+                                },
+                                "3": {
+					"label": "Tartan",
+					"dtype": "String"
+                                },
+                                "4": {
+					"label": "Black Leather",
+					"dtype": "String"
+                                },
+                                "5": {
+					"label": "Blue Denim",
+					"dtype": "String"
+                                },
+                                "6": {
+					"label": "Grey",
+					"dtype": "String"
+                                }
+                        },
+                        "disguiseDOptions": {
+				"0": {
+					"label": "Roll",
+					"dtype": "String"
+                                },
+                                "1": {
+					"label": "Y Fronts",
+					"dtype": "String"
+                                },
+                                "2": {
+					"label": "Knee Length Skirt",
+					"dtype": "String"
+                                },
+                                "3": {
+					"label": "Knickerbockers",
+					"dtype": "String"
+                                },
+                                "4": {
+					"label": "Bell Bottomed Flares",
+					"dtype": "String"
+                                },
+                                "5": {
+					"label": "Cargo Pants",
+					"dtype": "String"
+                                },
+                                "6": {
+					"label": "Smart Trousers",
+					"dtype": "String"
+                                }
+                        },
+                        "disguiseEOptions": {
+                                "0": {
+					"label": "None",
+					"dtype": "String"
+                                },
+                                "-1": {
+					"label": "Pink Cowboy Hat (-1)",
+					"dtype": "String"
+                                },
+                                "-2": {
+					"label": "Bejewelled Crown (-2)",
+					"dtype": "String"
+                                },
+                                "-3": {
+					"label": "Badge that says BEAR 'N PROUD (-3)",
+					"dtype": "String"
+                                },
+                                "1": {
+					"label": "Tophat + Monocle (+1)",
+					"dtype": "String"
+                                },
+                                "2": {
+					"label": "Beautiful Blonde Wig (+2)",
+					"dtype": "String"
+                                },
+                                "3": {
+					"label": "Cool Shades (+3)",
+					"dtype": "String"
+                                }
+                        }
 		}
 	},
 	"Item": {

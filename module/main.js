@@ -63,4 +63,14 @@ Hooks.on("renderHoneyHeistActorSheet", (ev) => {
 	} else {
 		$(".hat2").hide();
 	}
+
+        // Compute the HBS
+        const data = ev.actor.data.data;
+        const hbs =
+          (parseInt(data.disguiseA) || 0) +
+          (parseInt(data.disguiseB) || 0)+
+          (parseInt(data.disguiseC) || 0)+
+          (parseInt(data.disguiseD) || 0)+
+          (parseInt(data.disguiseE) || 0);
+        $('#hbs-value').text(hbs);
 });

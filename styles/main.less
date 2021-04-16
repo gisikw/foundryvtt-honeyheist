@@ -80,10 +80,10 @@
 				grid-area: value;
 			}
 		}
-		#attributes-panel {
+		#attributes-panel, #disguise-panel {
 			margin-top: 10px;
 
-			#attributes {
+			#attributes, #disguises {
 				display: grid;
 				gap: @margin;
 				margin-top: @margin;
@@ -100,4 +100,9 @@
 			grid-template-rows: max-content 1fr;
 		}
 	}
+
+        #disguise-title {
+          display: flex;
+          justify-content: space-between;
+        }
 }

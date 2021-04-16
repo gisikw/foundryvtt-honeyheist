@@ -106,6 +106,81 @@
       </div>
     </div>
   </div>
+  {{!-- Disguise --}}
+  <div id="disguise-panel">
+    <h2 id="disguise-title">
+      <span>
+        {{localize 'HH.DisguiseTitle'}}
+      </span>
+      <span>
+        HBS: <span id="hbs-value">0</span>
+      </span>
+    </h2>
+    <div id="disguises">
+      <div class="attribute">
+        <label>{{localize 'HH.BearDisguiseA'}}</label>
+        <select name="data.disguiseA" data-type="string">
+          {{#select data.disguiseA}}
+            {{#each data.disguiseAOptions as |opt key|}}
+              <option value="{{key}}">{{opt.label}}</option>
+            {{/each}}
+          {{/select}}
+        </select>
+        <img class="attribute-roll expand no-border" data-roll="1d6+1"
+          src="/systems/honey-heist/resources/icons/die-six.svg" height="25" width="25" />
+      </div>
+      <div class="attribute">
+        <label>{{localize 'HH.BearDisguiseB'}}</label>
+        <select name="data.disguiseB" data-type="string">
+          {{#select data.disguiseB}}
+            {{#each data.disguiseBOptions as |opt key|}}
+              <option value="{{key}}">{{opt.label}}</option>
+            {{/each}}
+          {{/select}}
+        </select>
+        <img class="attribute-roll expand no-border" data-roll="1d6+1"
+          src="/systems/honey-heist/resources/icons/die-six.svg" height="25" width="25" />
+      </div>
+      <hr>
+      <div class="attribute">
+        <label>{{localize 'HH.BearDisguiseC'}}</label>
+        <select name="data.disguiseC" data-type="string">
+          {{#select data.disguiseC}}
+            {{#each data.disguiseCOptions as |opt key|}}
+              <option value="{{key}}">{{opt.label}}</option>
+            {{/each}}
+          {{/select}}
+        </select>
+        <img class="attribute-roll expand no-border" data-roll="1d6+1"
+          src="/systems/honey-heist/resources/icons/die-six.svg" height="25" width="25" />
+      </div>
+      <div class="attribute">
+        <label>{{localize 'HH.BearDisguiseD'}}</label>
+        <select name="data.disguiseD" data-type="string">
+          {{#select data.disguiseD}}
+            {{#each data.disguiseDOptions as |opt key|}}
+              <option value="{{key}}">{{opt.label}}</option>
+            {{/each}}
+          {{/select}}
+        </select>
+        <img class="attribute-roll expand no-border" data-roll="1d6+1"
+          src="/systems/honey-heist/resources/icons/die-six.svg" height="25" width="25" />
+      </div>
+      <hr>
+      <div class="attribute">
+        <label>{{localize 'HH.BearDisguiseE'}}</label>
+        <select name="data.disguiseE" data-type="string">
+          {{#select data.disguiseE}}
+            {{#each data.disguiseEOptions as |opt key|}}
+              <option value="{{key}}">{{opt.label}}</option>
+            {{/each}}
+          {{/select}}
+        </select>
+        <img class="attribute-roll expand no-border" data-roll="1d6+1"
+          src="/systems/honey-heist/resources/icons/die-six.svg" height="25" width="25" />
+      </div>
+    </div>
+  </div>
   {{!-- Biography --}}
   <div id="bio-panel">
     <h2>{{localize 'HH.BiographyTitle'}}</h2>

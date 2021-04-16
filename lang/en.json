@@ -27,5 +27,11 @@
 	"HH.CriminalEndMessage": "THE END! You are lured into a life of crime and betray the party",
 	"HH.RollForBear": "Roll for Bear",
 	"HH.RollForCriminal": "Roll for Criminal",
-	"HH.DefaultBio": "It’s Honeycon. You are going to undertake the greatest heist the world has ever seen. Two Things – One: You have a complex plan that requires precise timing. Two: You are a GODDAMN BEAR."
+	"HH.DefaultBio": "It’s Honeycon. You are going to undertake the greatest heist the world has ever seen. Two Things – One: You have a complex plan that requires precise timing. Two: You are a GODDAMN BEAR.",
+        "HH.DisguiseTitle": "Disguise",
+        "HH.BearDisguiseA": "Color",
+        "HH.BearDisguiseB": "Item",
+        "HH.BearDisguiseC": "Color",
+        "HH.BearDisguiseD": "Item",
+        "HH.BearDisguiseE": "Extra"
 }
