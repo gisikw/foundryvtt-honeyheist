@@ -1,10 +1,12 @@
 <form class="{{cssClass}} sheet-panel" autocomplete="off">
+
   {{!-- Sheet div --}}
   <div id="stat-panel">
     <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
     <h1 class="char-name">
       <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'HH.BearName'}}" />
     </h1>
+
     {{!-- Stats Block --}}
     <div id="stat-bear">
       <h2 class="stat-title">BEAR</h2>
@@ -28,6 +30,7 @@
         src="/systems/honey-heist/resources/icons/die-six-double.svg" />
     </div>
   </div>
+
   {{!-- Attributes --}}
   <div id="attributes-panel">
     <h2>{{localize 'HH.AttributesTitle'}}</h2>
@@ -106,6 +109,7 @@
       </div>
     </div>
   </div>
+
   {{!-- Disguise --}}
   <div id="disguise-panel">
     <h2 id="disguise-title">
@@ -181,6 +185,7 @@
       </div>
     </div>
   </div>
+
   {{!-- Biography --}}
   <div id="bio-panel">
     <h2>{{localize 'HH.BiographyTitle'}}</h2>
